@@ -4,14 +4,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		Hero h = new Hero();
-		SuperHero sh = new SuperHero();
-		Matango m = new Matango();
+		SuperHero sh1 = new SuperHero();
+		PoisonMatango m1 = new PoisonMatango('A');
 
-		sh.fly();
-		sh.attacker(m);
-		sh.land();
-		sh.attacker(m);
-		sh.attacker(m);
+		m1.attack(h);
+		sh1.attacker(m1);
+		h.attack(m1);
 	}
+
 
 }

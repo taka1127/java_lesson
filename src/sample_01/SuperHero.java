@@ -2,6 +2,10 @@ package sample_01;
 
 public class SuperHero extends Hero {
 	boolean flying;
+	
+	public SuperHero () {
+		System.out.println("SuperHeroのコンストラクタが動作");
+	}
 
 	public void fly() {
 		this.flying = true;
