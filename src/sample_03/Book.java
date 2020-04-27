@@ -1,6 +1,6 @@
 package sample_03;
 
-public class Book extends TangibleAsset {
+public abstract class Book extends TangibleAsset {
 
 	  String isbn;
 	  // コンストラクタ

@@ -1,6 +1,6 @@
 package sample_03;
 
-public class Computer extends TangibleAsset {
+public abstract class Computer extends TangibleAsset {
 
 	  String makerName;
 	  // コンストラクタ
