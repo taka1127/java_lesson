@@ -1,25 +1,24 @@
 package sample_01;
 
 public class Hero {
-	String name = "ミナト";
-	int hp = 100;
+	  private int hp;
+	  private String name;
 
-	public Hero() {
-		System.out.println("Heroのコンストラクタが動作");
-	}
-	
+	  public int getHp() {
+	    return this.hp;
+	  }
+	  public void setHp(int hp) {
+	    this.hp = hp;
+	  }
+	  public String getName() {
+	    return this.name;
+	  }
+	  public void setName(String name) {
+	    this.name = name;
+	  }
 	public void attack(Matango m) {
-		System.out.println(this.name + "の攻撃！");
-		m.hp -= 5;
-		System.out.println(m.suffix+"に5ポイントのダメージを与えた");
+		// TODO 自動生成されたメソッド・スタブ
+
 	}
-
-	public void run() {
-
-		System.out.println(this.name+"は逃げ出した");
-	}
-	
-	
-
 
 }

@@ -2,7 +2,7 @@ package sample_01;
 
 public class SuperHero extends Hero {
 	boolean flying;
-	
+
 	public SuperHero () {
 		System.out.println("SuperHeroのコンストラクタが動作");
 	}
@@ -19,7 +19,7 @@ public class SuperHero extends Hero {
 
 	public void run() {
 
-		System.out.println(this.name+"は撤退した");
+		System.out.println(this.getName()+"は撤退した");
 	}
 
 	public void attacker(Matango m) {
